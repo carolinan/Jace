@@ -38,7 +38,10 @@
 <!-- wp:group {"layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group">
 	<!-- wp:quote -->
-	<blockquote class="wp-block-quote"><p><?php echo esc_html_x( 'Add quote', 'sample content', 'jace' ); ?></p><cite><?php echo esc_html_x( 'Add citation', 'sample content', 'jace' ); ?></cite></blockquote>
+	<blockquote class="wp-block-quote">
+	<!-- wp:paragraph --><p><?php echo esc_html_x( 'Add quote', 'sample content', 'jace' ); ?></p><!-- /wp:paragraph -->
+	<cite><?php echo esc_html_x( 'Add citation', 'sample content', 'jace' ); ?></cite>
+	</blockquote>
 	<!-- /wp:quote -->
 
 	<!-- wp:image {"width":200,"height":200,"sizeSlug":"full","linkDestination":"none"} -->
@@ -51,7 +54,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
-<h3><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph --><p><?php echo esc_html_x( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'sample content', 'jace' ); ?></p>
@@ -61,7 +64,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph --><p><?php echo esc_html_x( 'Example paragraph, replace this with your own text.', 'sample content', 'jace' ); ?></p><!-- /wp:paragraph -->
@@ -73,7 +76,7 @@
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
@@ -87,7 +90,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
@@ -106,7 +109,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->

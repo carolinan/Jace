@@ -12,7 +12,8 @@
 
 ?>
 
-<!-- wp:query {"query":{"perPage":"1","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"align":"wide","layout":{"inherit":true},"className":"jace-hide-sticky"} --><div class="wp-block-query alignwide jace-hide-sticky">
+<!-- wp:query {"query":{"perPage":"1","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"align":"wide","layout":{"inherit":true},"className":"jace-hide-sticky"} -->
+<div class="wp-block-query alignwide jace-hide-sticky">
 <!-- wp:post-template {"align":"wide"} -->
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group">

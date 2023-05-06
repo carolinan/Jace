@@ -13,7 +13,7 @@
 ?>
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"3rem"}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textColor":"primary","fontSize":"medium"} --><h2 class="has-primary-color has-text-color has-medium-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textColor":"primary","fontSize":"medium"} --><h2 class="wp-block-heading has-primary-color has-text-color has-medium-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:query {"query":{"perPage":"1","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"displayLayout":{"type":"list"},"align":"full","layout":{"inherit":true},"className":"sticky"} -->
 <div class="wp-block-query alignfull sticky"><!-- wp:post-template -->
@@ -24,13 +24,13 @@
 <!-- /wp:query --></div>
 <!-- /wp:column -->
 <!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"textColor":"primary","fontSize":"medium"} --><h2 class="has-primary-color has-text-color has-medium-font-size"><?php echo esc_html_x( 'Featured product', 'sample content', 'jace' ); ?></h2>
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"textColor":"primary","fontSize":"medium"} --><h2 class="wp-block-heading has-primary-color has-text-color has-medium-font-size"><?php echo esc_html_x( 'Featured product', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:woocommerce/featured-product {"backgroundColor":"secondary"} /--></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 <!-- wp:group {"align":"wide","style":{"spacing":{"margin":{"top":"3rem"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="margin-top:3rem"><!-- wp:heading {"textAlign":"left","textColor":"primary"} --><h2 class="has-text-align-left has-primary-color has-text-color"><?php echo esc_html_x( 'From the blog', 'sample content', 'jace' ); ?></h2>
+<div class="wp-block-group alignwide" style="margin-top:3rem"><!-- wp:heading {"textAlign":"left","textColor":"primary"} --><h2 class="wp-block-heading has-text-align-left has-primary-color has-text-color"><?php echo esc_html_x( 'From the blog', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:query {"query":{"perPage":3,"pages":0,"offset":"4","postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false}} -->
 <div class="wp-block-query"><!-- wp:post-template -->

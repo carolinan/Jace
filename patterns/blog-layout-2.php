@@ -17,7 +17,7 @@
 <!-- wp:query {"query":{"perPage":5,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"displayLayout":{"type":"list","columns":2},"align":"full","className":"jace-blog-layout jace-hide-sticky","layout":{"inherit":true}} -->
 <div class="wp-block-query alignfull jace-blog-layout jace-hide-sticky">
 <!-- wp:heading {"textColor":"primary","fontSize":"small"} -->
-<h2 class="has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:post-template {"align":"wide"} -->
 <!-- wp:group {"style":{"border":{"radius":"4px"},"color":{"background":"#f2f2f203"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

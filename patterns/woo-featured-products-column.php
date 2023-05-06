@@ -14,7 +14,7 @@
 <div class="wp-block-columns alignfull has-background-background-color has-background">
 <!-- wp:column {"verticalAlignment":"center"} --><div class="wp-block-column is-vertically-aligned-center">
 <!-- wp:heading {"textAlign":"center","textColor":"foreground","className":"is-style-jace-text-shadow","fontSize":"x-large"} -->
-<h2 class="has-text-align-center is-style-jace-text-shadow has-foreground-color has-text-color has-x-large-font-size"><?php echo esc_html_x( 'Featured products', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center is-style-jace-text-shadow has-foreground-color has-text-color has-x-large-font-size"><?php echo esc_html_x( 'Featured products', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:spacer {"height":"40px"} -->
 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>

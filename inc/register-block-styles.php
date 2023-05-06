@@ -309,24 +309,3 @@ function jace_register_block_styles() {
 
 }
 add_action( 'init', 'jace_register_block_styles' );
-
-/**
- * Unregister the core block style for quotes
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-styles/
- * @see https://github.com/WordPress/gutenberg/pull/37580
- *
- * @since 1.0.4
- *
- * @return void
- */
-function jace_unregister_block_style() {
-	wp_enqueue_script(
-		'jace-unregister',
-		get_stylesheet_directory_uri() . '/assets/js/unregister.js',
-		array( 'wp-blocks', 'wp-dom-ready', 'wp-edit-post' ),
-		JACE_VERSION,
-		true
-	);
-}
-add_action( 'enqueue_block_editor_assets', 'jace_unregister_block_style' );

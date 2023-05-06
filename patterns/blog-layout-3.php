@@ -14,8 +14,9 @@
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":"3rem"}}} -->
 <div class="wp-block-columns alignwide">
 <!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"textColor":"primary","fontSize":"small"} -->
-<h2 class="has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
+<div class="wp-block-column" style="flex-basis:50%">
+<!-- wp:heading {"textColor":"primary","fontSize":"small"} -->
+<h2 class="wp-block-heading has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Featured', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:query {"query":{"perPage":"1","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"only","inherit":false},"displayLayout":{"type":"list"},"align":"full","layout":{"inherit":true}} -->
 <div class="wp-block-query alignfull"><!-- wp:post-template -->
@@ -29,7 +30,7 @@
 <!-- wp:column {"width":"40%"} -->
 <div class="wp-block-column" style="flex-basis:40%">
 <!-- wp:query {"query":{"perPage":"4","pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"exclude","inherit":false},"displayLayout":{"type":"list","columns":2},"align":"full","className":"jace-blog-layout","layout":{"inherit":true}} -->
-<div class="wp-block-query alignfull jace-blog-layout"><!-- wp:heading {"textColor":"primary","fontSize":"small"} --><h2 class="has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Latest', 'sample content', 'jace' ); ?></h2>
+<div class="wp-block-query alignfull jace-blog-layout"><!-- wp:heading {"textColor":"primary","fontSize":"small"} --><h2 class="wp-block-heading has-primary-color has-text-color has-small-font-size"><?php echo esc_html_x( 'Latest', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:post-template {"align":"wide"} -->
 <!-- wp:group {"style":{"border":{"radius":"4px"},"color":{"background":"#f2f2f203"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

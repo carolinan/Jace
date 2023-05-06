@@ -14,7 +14,7 @@
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
 <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-headphones.jpg' ) ); ?>" alt="" width="120" height="120"/></figure></div>
@@ -30,7 +30,7 @@
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
 <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-tshirt.jpg' ) ); ?>" alt="" width="120" height="120"/></figure></div>
@@ -46,7 +46,7 @@
 <!-- /wp:column -->
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
 <div class="wp-block-image is-style-rounded"><figure class="aligncenter size-large is-resized"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="" width="120" height="120"/></figure></div>

@@ -14,7 +14,7 @@
 <!-- wp:group {"layout":{"inherit":true}} -->
 <div class="wp-block-group">
 <!-- wp:heading {"style":{"typography":{"letterSpacing":"1px"}},"className":"is-style-default has-caveat-font-family","fontSize":"x-large"} -->
-<h2 class="is-style-default has-caveat-font-family has-x-large-font-size" style="letter-spacing:1px"><strong><?php echo esc_html_x( 'Need help?', 'sample content', 'jace' ); ?></strong></h2>
+<h2 class="wp-block-heading is-style-default has-caveat-font-family has-x-large-font-size" style="letter-spacing:1px"><strong><?php echo esc_html_x( 'Need help?', 'sample content', 'jace' ); ?></strong></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"border":{"radius":"4px"},"spacing":{"blockGap":"2rem"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->

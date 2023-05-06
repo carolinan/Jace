@@ -1,9 +1,9 @@
 === Jace ===
 Contributors: Carolina Nymark
-Tested up to: 6.0
-Requires at least: 6.0
+Tested up to: 6.2
+Requires at least: 6.2
 Requires PHP: 7.4
-Version: 1.0.6
+Version: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Copyright: Carolina Nymark
@@ -11,6 +11,41 @@ Copyright: Carolina Nymark
 The main purpose of this theme is to showcase the features of full site editing.
 
 == Changelog ==
+
+1.0.7
+This update includes major changes to make sure that the theme is
+up to date with WordPress 6.2.
+The minimum required version was increased to 6.2.
+Updates to spacing.
+Updates to button styles.
+Updates to the custom CSS added by theme.json.
+Removed several block CSS files since they were no longer needed.
+Added the Schema to theme.json.
+Added a new template part for comments, using the new comment blocks.
+The following templates were updated to use the new comments template part.
+You will see some style improvements for the comments area,
+if you reset your templates to the theme default:
+- Featured image centered above post title
+- Split design with featured image and post title
+- Full screen featured image cover block with post title
+- Full width featured image above post title
+- Page
+- Sidebar
+- Single
+Updated the heading blocks to include the class "wp-block-heading".
+Simplified the 404 page
+Removed the filter that added the default template, because it is no longer needed,
+the editor now lets you choose from premade templates when you create a new template.
+
+WooCommerce:
+Updated the product archive, singe product, checkout, cart, and product search 
+with the latest WooCommerce product blocks.
+Removed the minicart template part because it was incompatible with a recent WooCommerce update.
+Removed a JavaScript that unregistered block variations,
+because it was incompatible with a recent WooCommerce update.
+Changed the default header on the checkout page and cart page,
+because WooCommerce does not show the cart menu item on these pages.
+
 
 1.0.6
 Fixes:

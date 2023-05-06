@@ -18,7 +18,7 @@
 <!-- /wp:image -->
 <!-- wp:group -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
-<h2 class="has-text-align-center has-large-font-size"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
 <p class="has-text-align-center has-small-font-size"><?php echo esc_html_x( 'Add your custom product details here.', 'sample content', 'jace' ); ?></p>

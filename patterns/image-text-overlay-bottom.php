@@ -17,7 +17,7 @@
 <!-- wp:group {"layout":{"contentSize":"340px"},"className":"is-jace-overlay"} -->
 <div class="wp-block-group is-jace-overlay">
 <!-- wp:group {"backgroundColor":"white","style":{"border":{"radius":"4px"}}} --><div class="wp-block-group has-white-background-color has-background" style="border-radius:4px"><!-- wp:heading {"textAlign":"center","textColor":"secondary"} -->
-<h2 class="has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"align":"center","textColor":"secondary"} -->
 <p class="has-text-align-center has-secondary-color has-text-color"><?php echo esc_html_x( 'Example text', 'sample content', 'jace' ); ?></p>

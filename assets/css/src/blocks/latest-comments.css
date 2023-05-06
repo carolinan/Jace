@@ -15,6 +15,6 @@
 .wp-block-latest-comments__comment-excerpt p {
 	font-size: var(--wp--preset--font-size--medium);
 	line-height: initial;
-	margin-top: calc(.5 * var(--wp--custom--v-spacing));
-	margin-bottom: var(--wp--custom--v-spacing);
+	margin-top: var(--wp--preset--spacing--30);
+	margin-bottom: var(--wp--preset--spacing--50);
 }

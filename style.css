@@ -6,10 +6,10 @@ Theme URI:
 Description: The main purpose of this theme is to showcase the features of full site editing. You can use the theme for blogging, for your portfolio, business, or store. To use the e-commerce features, you need to install both WooCommerce and WooCommerce blocks. It is also recommended to install Gutenberg and Contact Form 7. The theme has over 60 patterns + all patterns from the WordPress pattern directory. Jace includes an optional light color scheme, blog layouts, about pages, contact pages, sticky header, social sharing, full-screen headers, buttons and list styles.
 Tags: full-site-editing, editor-style, block-styles, block-patterns, accessibility-ready
 Text Domain: jace
-Version: 1.0.6
-Requires at least: 6.0
+Version: 1.0.7
+Requires at least: 6.2
 Requires PHP: 7.4
-Tested up to: 6.0
+Tested up to: 6.2
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -67,29 +67,6 @@ body {
 		top: 32px;
 	}
 
-}
-
-/*
- * Increase horizontal padding on smaller screens.
- * Temporary solution to avoid text content
- * running up to the edge of the browser window,
- * making the text difficult to read.
-*/
-@media ( max-width: 1024px ) {
-
-	main > :not(.alignfull),
-	.sidebar > :not(.alignfull),
-	main > .wp-block-query > :not(.alignfull),
-	main .entry-content > :not(.alignfull),
-	main .entry-content .wp-block-columns.alignfull p,
-	.woocommerce .woocommerce-breadcrumb,
-	.woocommerce :not(.related) > ul.products,
-	.sidebar .wp-block-query > :not(.alignfull),
-	.sidebar .entry-content > :not(.alignfull),
-	.sidebar .entry-content .wp-block-columns.alignfull p {
-		padding-left: var(--wp--custom--h-spacing);
-		padding-right: var(--wp--custom--h-spacing);
-	}
 }
 
 /* Hide the header block patterns on the paginated results. */

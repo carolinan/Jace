@@ -1,5 +1,5 @@
 /*
-Styles for form elements and buttons.
+Styles for form elements.
 */
 
 textarea {
@@ -13,14 +13,6 @@ select {
 
 textarea,
 select,
-button:not(.components-button):not(.wp-block-navigation *),
-.woocommerce #respond input#submit,
-.woocommerce a.button,
-.woocommerce button.button,
-.woocommerce input.button,
-.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button,
-.wc-block-components-button:not(.is-link).contained,
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined,
 input[type="color"],
 input[type="date"],
 input[type="datetime-local"],
@@ -42,80 +34,6 @@ input[type="week"] {
 	line-height: 1.7;
 }
 
-button:not(.components-button):not(.wp-block-navigation *),
-input[type="reset"],
-input[type="submit"],
-.woocommerce #respond input#submit,
-.woocommerce a.button,
-.woocommerce button.button,
-.woocommerce input.button,
-.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button,
-.wc-block-components-button:not(.is-link).contained,
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined {
-	border: 2px solid var(--wp--custom--button-border-color);
-	padding: var(--wp--custom--button-padding);
-	border-radius: var(--wp--custom--button-border-radius);
-	background: var(--wp--preset--color--secondary);
-	color: var(--wp--preset--color--foreground);
-	box-shadow: var(--wp--custom--small-button-shadow);
-}
-
-button:not(.components-button):not(.wp-block-navigation *):focus,
-button:not(.components-button):not(.wp-block-navigation *):hover,
-.woocommerce #respond input#submit:focus,
-.woocommerce #respond input#submit:hover,
-.woocommerce a.button:focus,
-.woocommerce a.button:hover,
-.woocommerce button.button:focus,
-.woocommerce button.button:hover,
-.woocommerce input.button:focus,
-.woocommerce input.button:hover,
-.woocommerce button.button.alt:focus,
-.woocommerce button.button.alt:hover,
-.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:focus,
-.wc-block-components-totals-coupon__form .wc-block-components-totals-coupon__button:hover,
-.wc-block-components-button:not(.is-link).contained:focus,
-.wc-block-components-button:not(.is-link).contained:hover,
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined:focus,
-.wc-block-mini-cart__footer-actions .wc-block-components-button:not(.is-link).outlined:hover,
-input[type="reset"]:focus,
-input[type="reset"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:hover {
-	color: var(--wp--preset--color--foreground);
-	background: var(--wp--preset--color--secondary);
-	filter: brightness(94%) !important;
-	box-shadow: var(--wp--custom--small-button-shadow);
-}
-
-button:not(.components-button):not(.wp-block-navigation *):active,
-.woocommerce #respond input#submit:active,
-.woocommerce a.button:active,
-.woocommerce button.button:active,
-.woocommerce input.button:active,
-input[type="reset"]:active,
-input[type="submit"]:active {
-	border-color: var(--wp--custom--button-border-color);
-	box-shadow: var(--wp--custom--button-highlight);
-	color: var(--wp--preset--color--foreground);
-	filter: brightness(93%) !important;
-	margin-top: 1px;
-	margin-bottom: -1px;
-}
-
-button:not(.components-button):not(.wp-block-navigation *):visited,
-.woocommerce #respond input#submit:visited,
-.woocommerce a.button:visited,
-.woocommerce button.button:visited,
-.woocommerce input.button:visited,
-input[type="reset"]:visited,
-input[type="submit"]:visited {
-	background-color: initial;
-	border-color: var(--wp--custom--button-border-color);
-	color: var(--wp--preset--color--foreground);
-	box-shadow: var(--wp--custom--small-button-shadow);
-}
-
 .post-password-form input[type="password"] {
 	min-height: 46px;
 }
@@ -127,10 +45,6 @@ input[type="submit"]:visited {
 	height: 48px;
 }
 
-.wp-block-image figcaption,
-.wp-block-video figcaption,
-.wp-block-audio figcaption,
-.wp-block-gallery figcaption,
-.wp-block-table figcaption {
-	color: var(--wp--preset--color--foreground);
+.wp-block-navigation__responsive-container .hidden-by-default .is-menu-open .has-modal-open .wp-block-search {
+	margin-bottom: 32px;
 }

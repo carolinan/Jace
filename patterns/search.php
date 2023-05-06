@@ -11,7 +11,7 @@
 if ( isset( $_GET['s'] ) ) {
 	?>
 	<!-- wp:heading {"className":"is-style-jace-text-shadow","fontSize":"x-large"} -->
-	<h2 class="is-style-jace-text-shadow has-x-large-font-size">
+	<h2 class="wp-block-heading is-style-jace-text-shadow has-x-large-font-size">
 	<?php
 	$search_term = sanitize_text_field( wp_unslash( $_GET['s'] ) );
 	/* translators: %s: Search term. */

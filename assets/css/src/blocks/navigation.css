@@ -39,12 +39,14 @@ button.wp-block-navigation__responsive-container-open:visited {
 	box-shadow: var(--wp--custom--small-button-shadow);
 }
 
-/* Search drop down */
+/* Search dropdown */
 .is-jace-search-modal .wp-block-navigation__responsive-container {
 	top: 2rem;
 	left: 2rem;
 	right: 2rem;
 	bottom: auto;
+	padding-top: var(--wp--preset--spacing--40);
+	padding-bottom: var(--wp--preset--spacing--40);
 }
 
 /* Move the sticky position down to adjust for the WordPress admin bar */
@@ -57,6 +59,10 @@ button.wp-block-navigation__responsive-container-open:visited {
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 0;
+}
+
+.is-jace-search-modal .wp-block-navigation__responsive-dialog {
+	margin-top: 0 !important;
 }
 
 @media screen and (max-width: 782px) {

@@ -11,7 +11,7 @@
 
 ?>
 <!-- wp:heading { "fontSize":"large" } -->
-<h2 class="has-large-font-size"><?php echo esc_html_x( 'Example heading with company name, greeting, or slogan', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-large-font-size"><?php echo esc_html_x( 'Example heading with company name, greeting, or slogan', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph --><p><?php echo esc_html_x( 'Describe your business and your selling points.', 'sample content', 'jace' ); ?></p><!-- /wp:paragraph -->
@@ -56,7 +56,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"level":3} -->
-<h3><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph --><p><?php echo esc_html_x( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'sample content', 'jace' ); ?></p>
@@ -66,7 +66,7 @@
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"level":3} -->
-<h3><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph --><p><?php echo esc_html_x( 'Example paragraph, replace this with your own text.', 'sample content', 'jace' ); ?></p><!-- /wp:paragraph -->
@@ -78,7 +78,7 @@
 <!-- wp:columns {"align":"wide"} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
@@ -86,13 +86,13 @@
 <!-- /wp:image -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php echo esc_html_x( 'Example paragraph, replace this with your own text.', 'sample content', 'jace' ); ?></p>
+<p class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example paragraph, replace this with your own text.', 'sample content', 'jace' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
@@ -111,7 +111,7 @@
 
 <!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:heading {"textAlign":"center","level":3} -->
-<h3 class="has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:image {"align":"center","width":120,"height":120,"sizeSlug":"large","linkDestination":"none","className":"is-style-rounded"} -->
@@ -129,7 +129,7 @@
 <!-- /wp:spacer -->
 
 <!-- wp:heading {"textAlign":"center","level":3,"className":"has-caveat-font-family","fontSize":"large"} -->
-<h3 class="has-text-align-center has-caveat-font-family has-large-font-size"><?php echo esc_html_x( 'Get to know us on social media:', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading has-text-align-center has-caveat-font-family has-large-font-size"><?php echo esc_html_x( 'Get to know us on social media:', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:social-links {"iconColor":"secondary","iconColorValue":"#3c434a","iconBackgroundColor":"primary","iconBackgroundColorValue":"#d3bc8e","layout":{"type":"flex","justifyContent":"center"}} -->

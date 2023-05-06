@@ -41,12 +41,10 @@ function jace_setup() {
 	$styled_blocks = [
 		'button',
 		'code',
-		'file',
 		'list',
 		'latest-comments',
 		'latest-posts',
 		'navigation',
-		'post-title',
 		'quote',
 		'search',
 		'separator',

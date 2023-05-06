@@ -22,7 +22,7 @@
 <!-- wp:group -->
 <div class="wp-block-group">
 	<!-- wp:heading {"fontSize":"xxx-large"} -->
-<h2 class="has-xxx-large-font-size"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading has-xxx-large-font-size"><?php echo esc_html_x( 'Example heading', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading -->
 <!-- wp:paragraph -->
 <p><?php echo esc_html_x( 'Add your custom product details here. You can also add extra images and change colors.', 'sample content', 'jace' ); ?></p>

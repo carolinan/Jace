@@ -5,7 +5,7 @@
 * which makes them more difficult to read.
 */
 .wp-block-latest-posts.wp-block-latest-posts__list li {
-	margin-bottom: var(--wp--custom--v-spacing);
+	margin-bottom: var(--wp--preset--spacing--50);
 }
 
 /* Match the default color and font size of the posts */

@@ -16,6 +16,6 @@
 <figure class="wp-block-image size-full is-resized is-style-rounded"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/woman-curls.jpg' ) ); ?>" alt="" width="400" height="400"/></figure>
 <!-- /wp:image -->
 <!-- wp:heading {"textColor":"foreground","className":"is-style-jace-text-shadow","fontSize":"xxx-large"} -->
-<h2 class="is-style-jace-text-shadow has-foreground-color has-text-color has-xxx-large-font-size"><?php echo _x( '<strong>Create your </strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">website</mark><br><strong> with blocks.</strong>', 'sample content', 'jace' ); ?></h2>
+<h2 class="wp-block-heading is-style-jace-text-shadow has-foreground-color has-text-color has-xxx-large-font-size"><?php echo _x( '<strong>Create your </strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">website</mark><br><strong> with blocks.</strong>', 'sample content', 'jace' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:group -->

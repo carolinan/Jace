@@ -22,7 +22,7 @@
 <!-- wp:group {"backgroundColor":"white","textColor":"black"} -->
 <div class="wp-block-group has-black-color has-white-background-color has-text-color has-background">
 <!-- wp:heading {"level":3} -->
-<h3><?php echo esc_html_x( 'Subheading', 'sample content', 'jace' ); ?></h3>
+<h3 class="wp-block-heading"><?php echo esc_html_x( 'Subheading', 'sample content', 'jace' ); ?></h3>
 <!-- /wp:heading -->
 <!-- wp:paragraph {"fontSize":"small"} -->
 <p class="has-small-font-size"><strong><?php echo esc_html_x( 'Sample content. Replace the example cover block with your own image.', 'sample content', 'jace' ); ?></strong></p>
